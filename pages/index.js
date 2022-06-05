@@ -85,6 +85,8 @@ export default function Home() {
 			$(_owl).find('.single-project').each(owlAnimateFilter); 
 		});
 	});
+
+	document.getElementById('footer-date').innerHTML = new Date().getFullYear();
   })
 
   return (
@@ -103,21 +105,21 @@ export default function Home() {
           </div>
 
           <div className="hero-slider">
-          <div className="hero-slide-item set-bg" data-setbg="img/hero4.webp">
+          <div className="hero-slide-item set-bg hero-slide-1">
               <div className="slide-inner">
                 <div className="slide-content">
                   <h2 style={{textTransform: 'uppercase'}}>études <br/>matériaux <br/> construction</h2>
                 </div>	
               </div>
             </div>
-            <div className="hero-slide-item set-bg" data-setbg="img/hero5.webp">
+            <div className="hero-slide-item set-bg hero-slide-2">
               <div className="slide-inner">
                 <div className="slide-content">
                 <h2 style={{textTransform: 'uppercase'}}>immobilier <br/>assurance <br/> location/vente</h2>
                 </div>	
               </div>
             </div>
-          <div className="hero-slide-item set-bg" data-setbg="img/hero6.webp">
+          <div className="hero-slide-item set-bg hero-slide-3">
               <div className="slide-inner">
                 <div className="slide-content">
                 <h2 style={{textTransform: 'uppercase'}}>Formation <br/>Consulting</h2>
@@ -132,21 +134,21 @@ export default function Home() {
 		      <div className="hero-right-text">GROWTH BTP</div>
        </section>
 
-       <section id="about" className="intro-section pt100 pb50">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-7 intro-text mb-5 mb-lg-0">
-                <h2 className="sp-title">Nous bâtissons vos <span>idées</span></h2>
-                <p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. Curabitur finibus dolor vel lectus pretium interdum a eget ante. Morbi rhoncus feugiat imperdiet. Curabitur non maximus leo. Nulla in ipsum sed magna egestas bibendum. Integer in sem sagittis, commodo mi sit amet, commodo nibh. Suspendisse potenti. Aliquam erat volutpat. Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum.</p>
-              </div>
-              <div className="col-lg-5 pt-4">
-                <img src="img/intro.png" alt=""/>
-              </div>
-            </div>
-          </div>
-        </section>
+	<section id="about" className="intro-section pt100 pb50">
+		<div className="container">
+		<div className="row">
+			<div className="col-lg-7 intro-text mb-5 mb-lg-0">
+			<h2 className="sp-title">Nous bâtissons vos <span>idées</span></h2>
+			<p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. Curabitur finibus dolor vel lectus pretium interdum a eget ante. Morbi rhoncus feugiat imperdiet. Curabitur non maximus leo. Nulla in ipsum sed magna egestas bibendum. Integer in sem sagittis, commodo mi sit amet, commodo nibh. Suspendisse potenti. Aliquam erat volutpat. Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum.</p>
+			</div>
+			<div className="col-lg-5 pt-4">
+			<img src="img/intro.png" alt=""/>
+			</div>
+		</div>
+		</div>
+	</section>
 
-        <section id='services' className="service-section spad">
+	<section id='services' className="service-section spad">
 		<div className="container">
 			<div className="section-title">
 				<h2>Services</h2>
@@ -222,8 +224,7 @@ export default function Home() {
 		</div>
 	</section>
 
-  <div id='portfolio' className="projects-section pb50">
-		<div className="container">
+	<div id='portfolio' className="container pb50">
 			<div className="row">
 				<div className="col-lg-3">
 					<div className="section-title">
@@ -277,7 +278,6 @@ export default function Home() {
 				</div>
 			</div>
 		</div>
-	</div>
 
 	<section id='contact' className="page-section pt100">
 		<div className="container pb100">
@@ -307,15 +307,15 @@ export default function Home() {
 		</div>
 	</section>
 
-	<footer class="footer-section">
-		<div class="footer-social">
-			<div class="social-links">
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
+	<footer className="footer-section">
+		<div className="footer-social">
+			<div className="social-links">
+				<a href="#"><i className="fa fa-linkedin"></i></a>
+				<a href="#"><i className="fa fa-instagram"></i></a>
+				<a href="#"><i className="fa fa-facebook"></i></a>
 			</div>
 		</div>
-	<div class="copyright">Copyright Growth BTP &copy; <script>document.write(new Date().getFullYear());</script> Tout droit réservé.</div>
+	<div className="copyright">Copyright Growth BTP &copy; <span id='footer-date'></span> Tout droit réservé.</div>
     </footer>
     </>
   )

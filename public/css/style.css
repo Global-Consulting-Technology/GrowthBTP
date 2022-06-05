@@ -1887,6 +1887,7 @@ ol {
 	.hero-slider .hero-slide-item {
 		height: 850px;
 	}
+
 	.milestone,
 	.solid-service-box {
 		margin-bottom: 30px;
@@ -2109,4 +2110,14 @@ ol {
 	.projects-slider {
 		padding: 0 15px;
 	}
+}
+
+.hero-slide-1 {
+	background-image: url('./../img/hero4.webp');
+}
+.hero-slide-2 {
+	background-image: url('./../img/hero5.webp');
+}
+.hero-slide-3 {
+	background-image: url('./../img/hero6.webp');		
 }

@@ -3,7 +3,7 @@ export default function Header() {
     <>
     
     <header className="header-area">
-		<a href="home.html" className="logo-area">
+		<a href="/" className="logo-area">
 			<img src="/img/logo.png" alt=""/>
 		</a>
 		<div className="nav-switch">

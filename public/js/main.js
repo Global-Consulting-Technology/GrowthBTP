@@ -34,26 +34,6 @@ $(window).on('load', function() {
 		event.preventDefault();
 	});
 
-
-
-	/*------------------
-		Background set
-	--------------------*/
-	$('.set-bg').each(function() {
-		var bg = $(this).data('setbg');
-		$(this).css('background-image', 'url(' + bg + ')');
-	});
-
-
-	/*------------------
-		Hero Slider
-	--------------------*/
-	
-
-
-
-
-
 	/*------------------
 		Brands Slider
 	--------------------*/
