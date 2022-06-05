@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic'
-import Header from 'next/header'
+import Head from 'next/head'
 
 import "../public/css/bootstrap.min.css"
 import "../public/css/font-awesome.min.css"
@@ -12,10 +12,10 @@ const ExtJS = dynamic(() => import('../components/scripts'))
 function MyApp({ Component, pageProps }) {
   return (
     <>
-    <Header>
+    <Head>
       <title>Bienvenue sur Growth BTP</title>
       <meta name="description" content="Batisseur et architecte de vos idées"/>
-    </Header>
+    </Head>
     <div id="preloder">
       <div className="loader"></div>
     </div>
