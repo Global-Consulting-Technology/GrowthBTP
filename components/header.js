@@ -13,10 +13,10 @@ export default function Header() {
 		<nav className="nav-menu">
 			<ul>
 				<li className="active"><a href="/">Accueil</a></li>
-				<li><a href="#">A Propos</a></li>
-				<li><a href="#">Nos Services</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#about">A Propos</a></li>
+				<li><a href="#services">Nos Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>

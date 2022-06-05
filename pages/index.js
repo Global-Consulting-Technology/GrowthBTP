@@ -132,7 +132,7 @@ export default function Home() {
 		      <div className="hero-right-text">GROWTH BTP</div>
        </section>
 
-       <section className="intro-section pt100 pb50">
+       <section id="about" className="intro-section pt100 pb50">
           <div className="container">
             <div className="row">
               <div className="col-lg-7 intro-text mb-5 mb-lg-0">
@@ -146,7 +146,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="service-section spad">
+        <section id='services' className="service-section spad">
 		<div className="container">
 			<div className="section-title">
 				<h2>Services</h2>
@@ -222,7 +222,7 @@ export default function Home() {
 		</div>
 	</section>
 
-  <div className="projects-section pb50">
+  <div id='portfolio' className="projects-section pb50">
 		<div className="container">
 			<div className="row">
 				<div className="col-lg-3">
@@ -279,7 +279,7 @@ export default function Home() {
 		</div>
 	</div>
 
-	<section className="page-section pt100">
+	<section id='contact' className="page-section pt100">
 		<div className="container pb100">
 			<div className="section-title pt-5">
 				<h1>Contactez-Nous</h1>
