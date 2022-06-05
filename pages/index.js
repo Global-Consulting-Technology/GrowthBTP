@@ -305,7 +305,6 @@ export default function Home() {
 				</div>
 			</div>
 		</div>
-		<div className="map-area" id="map-canvas"></div>
 	</section>
 
 	<footer class="footer-section">
