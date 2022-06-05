@@ -10,7 +10,6 @@ export default function Scripts() {
     <Script src="/js/jquery.owl-filter.js"strategy="beforeInteractive" />
     <Script src="/js/magnific-popup.min.js"strategy="beforeInteractive" />
     <Script src="/js/circle-progress.min.js"strategy="beforeInteractive" />
-    <Script src="/js/map.js"strategy="beforeInteractive" />
     <Script src="/js/main.js"strategy="beforeInteractive" />
     </>
   )
