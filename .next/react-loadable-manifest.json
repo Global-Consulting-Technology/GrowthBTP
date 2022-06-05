@@ -1,0 +1,14 @@
+{
+  "_app.js -> ../components/scripts": {
+    "id": "_app.js -> ../components/scripts",
+    "files": [
+      "static/chunks/components_scripts_js.js"
+    ]
+  },
+  "index.js -> ../components/header": {
+    "id": "index.js -> ../components/header",
+    "files": [
+      "static/chunks/components_header_js.js"
+    ]
+  }
+}
